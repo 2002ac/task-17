@@ -1,0 +1,461 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body .home-1 {
+  width: 100%;
+  height: 600px;
+  background-image: url(https://i.pinimg.com/originals/37/40/5e/37405e1c749a953ac0aecc79b81975d5.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+body .home-1 .home-1-top {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .home-1 .home-1-top p {
+  font-size: 20px;
+  color: white;
+}
+body .home-1 .home-1-top h3 {
+  font-size: 30px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body .home-1 .home-1-bottom {
+  width: 80%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+body .home-1 .home-1-bottom .item {
+  width: 25%;
+  height: 300px;
+  background-color: rgba(121, 140, 228, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+}
+body .home-1 .home-1-bottom .item .qiymet {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-left: 20px;
+  color: rgb(6, 6, 51);
+}
+body .home-1 .home-1-bottom .item h3 {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 20px;
+}
+body .home-1 .home-1-bottom .item .info {
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 20px;
+  color: rgb(49, 49, 49);
+}
+body .home-1 .home-1-bottom .item button {
+  width: 130px;
+  height: 40px;
+  margin-left: 20px;
+  font-size: 17px;
+  border-radius: 18px;
+  color: white;
+  background-color: rgb(30, 30, 216);
+}
+body .imag-2 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/S/abs-image-upload-na/c/AmazonStores/ATVPDKIKX0DER/331133d4e7494f5fedce6748410b07be.w6276.h1836.jpg);
+  background-size: 100% 100%;
+}
+body .imag-2 .imag-2-ic {
+  width: 90%;
+  height: 500px;
+  background-color: rgba(18, 21, 175, 0.4);
+  border-radius: 15px;
+}
+body .imag-2 .imag-2-ic .head {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .imag-2 .imag-2-ic .head h3 {
+  font-size: 30px;
+  color: white;
+}
+body .imag-2 .imag-2-ic .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+body .imag-2 .imag-2-ic .form .blok1 {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+body .imag-2 .imag-2-ic .form .blok1 .input1 {
+  width: 45%;
+}
+body .imag-2 .imag-2-ic .form .blok1 .input1 input {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+}
+body .imag-2 .imag-2-ic .form .blok2 {
+  width: 100%;
+}
+body .imag-2 .imag-2-ic .form .blok2 textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 20px;
+  outline: none;
+}
+body .imag-2 .imag-2-ic .form .blok3 {
+  width: 100%;
+  margin-top: 30px;
+}
+body .imag-2 .imag-2-ic .form .blok3 button {
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: white;
+  background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+  transition: transform 0.5s ease;
+}
+body .imag-2 .imag-2-ic .form .blok3 button:hover {
+  transform: translateY(-5px);
+}
+body #info {
+  background-image: url(img/background5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+}
+body #info .info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body #info .info .img {
+  width: 29%;
+  margin-top: 40px;
+}
+body #info .info .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+body #info .info .text {
+  background-color: aliceblue;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 60px;
+  width: 60%;
+  border-radius: 20px;
+  margin-top: 200px;
+}
+body #info .info .text .text1 {
+  width: 100%;
+  font-size: 30px;
+  color: rgb(10, 10, 64);
+  font-weight: bold;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+body #info .info .text .name {
+  font-size: 20px;
+  color: rgb(10, 10, 64);
+  font-weight: bold;
+}
+body #nany-services {
+  background-color: #f2f6ff;
+  padding: 100px 0;
+}
+body #nany-services .nany-services {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+body #nany-services .nany-services .left {
+  width: 40%;
+  position: relative;
+}
+body #nany-services .nany-services .left .img img {
+  width: 100%;
+  border-radius: 20px;
+}
+body #nany-services .nany-services .left .blok {
+  text-align: center;
+  width: 250px;
+  font-size: 17px;
+  height: 200px;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  background-color: rgb(58, 135, 206);
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+}
+body #nany-services .nany-services .left .blok .blok-in {
+  border: 3px dotted white;
+  height: 100%;
+  padding: 50px 30px;
+  border-radius: 20px;
+}
+body #nany-services .nany-services .right {
+  margin-top: 50px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+body #nany-services .nany-services .right .head .up {
+  font-size: 35px;
+  color: rgb(6, 6, 71);
+  position: relative;
+  z-index: 1;
+}
+body #nany-services .nany-services .right .head .up::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(155, 93, 213);
+  height: 50%;
+  width: 280px;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+body #nany-services .nany-services .right .head .down {
+  font-size: 35px;
+  color: rgb(6, 6, 71);
+  position: relative;
+  z-index: 1;
+}
+body #nany-services .nany-services .right .head .down::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(195, 179, 7);
+  height: 70%;
+  width: 280px;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+body #nany-services .nany-services .right .button {
+  background-color: #d3a20f;
+  padding: 5px;
+  width: 150px;
+  border-radius: 25px;
+}
+body #nany-services .nany-services .right .button button {
+  border: 3px dotted white;
+  outline: hidden;
+  font-size: 20px;
+  background-color: transparent;
+  width: 100%;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+body #nany-meet {
+  background-color: #f2f6ff;
+  padding: 100px 0;
+}
+body #nany-meet .nany-meet {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+body #nany-meet .nany-meet .left {
+  width: 40%;
+  position: relative;
+}
+body #nany-meet .nany-meet .left .img {
+  height: 600px;
+}
+body #nany-meet .nany-meet .left .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body #nany-meet .nany-meet .left .blok {
+  text-align: center;
+  width: 250px;
+  height: 400px;
+  font-size: 17px;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  background-color: rgb(58, 135, 206);
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  overflow: hidden;
+}
+body #nany-meet .nany-meet .left .blok .blok-in {
+  border: 3px dotted white;
+  height: 100%;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+body #nany-meet .nany-meet .left .blok .blok-in h3 {
+  margin-bottom: 20px;
+}
+body #nany-meet .nany-meet .left .blok .blok-in textarea {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+body #nany-meet .nany-meet .left .blok .blok-in input {
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  padding: 4px 10px;
+}
+body #nany-meet .nany-meet .left .blok .blok-in button {
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 60%;
+  border: none;
+}
+body #nany-meet .nany-meet .right {
+  margin-top: 50px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+body #nany-meet .nany-meet .right .head .up {
+  font-size: 35px;
+  color: rgb(6, 6, 71);
+  position: relative;
+  z-index: 1;
+}
+body #nany-meet .nany-meet .right .head .up::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(155, 93, 213);
+  height: 50%;
+  width: 280px;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+body #nany-meet .nany-meet .right .head .down {
+  font-size: 35px;
+  color: rgb(6, 6, 71);
+  position: relative;
+  z-index: 1;
+}
+body #nany-meet .nany-meet .right .head .down::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(195, 179, 7);
+  height: 70%;
+  width: 280px;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+body #nany-meet .nany-meet .right .list ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body #nany-meet .nany-meet .right .list ul li {
+  font-size: 20px;
+  font-weight: bold;
+}
+body #nany-meet .nany-meet .right .list ul li i {
+  font-size: 20px;
+  color: cornflowerblue;
+}
+body #kids {
+  padding: 50px;
+}
+body #kids .kids {
+  display: flex;
+  justify-content: center;
+}
+body #kids .kids .left {
+  width: 40%;
+}
+body #kids .kids .left h2 {
+  font-size: 40px;
+  color: rgb(9, 9, 91);
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+body #kids .kids .left p {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 40px;
+}
+body #kids .kids .left ul {
+  list-style-type: none;
+}
+body #kids .kids .left ul li {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(8, 8, 73);
+  margin-bottom: 30px;
+}
+body #kids .kids .left ul li img {
+  width: 50px;
+  height: 50px;
+}
+body #kids .kids .right {
+  height: 500px;
+  width: 40%;
+}
+body #kids .kids .right img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}/*# sourceMappingURL=mode.css.map */
